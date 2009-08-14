@@ -1,6 +1,7 @@
 ###  HAB 1 model
 
 ### 	R implementation of the remote sensing based Hydraulically Assisted Bathymetry models (HAB) developed by Fonstad, M. & Marcus, W. (2005). Functions are provided for modelling with a range of custom variables. Summary functions are provided as well.
+## Originally written be Claude Flener, 2008, University of Turku
 
 ###   Fonstad, M. & Marcus, W. (2005), ‘Remote sensing of stream depths with hydraulically assisted bathymetry (HAB) models’, Geomorphology 72, 320–339.
 
@@ -42,7 +43,7 @@ par(las=1) # axis lables horizontal
 #
 #  Da = (Q / (3.125 * W * S^0.12))^0.55
 
-# The data.frame "Lines" should be of the following structure:
+# The tab-delimited data.frame "Lines" should be of the following structure:
 # min.B1 avg.B1 max.B1 min.B2 avg.B2 max.B2 min.B3 avg.B3 max.b3 Length LineNo
 # Length (lenght of the cross-section) should be in meters
 
